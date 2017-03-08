@@ -78,9 +78,7 @@ def depthFirstSearch(problem):
   
   To get started, you might want to try some of these simple commands to
   understand the search problem that is being passed in:
-  """
-  from game import Directions
-
+  """  
   stack = util.Stack()
   stack.push((problem.getStartState(), []))
   visited = set()
